@@ -10,7 +10,7 @@ wordsToNum()
 wordsToCurrency()
 numberDelimited()
 
-includes x header and x c file
+includes a header and a c file
 **/
 
 #include <stdio.h>
@@ -151,7 +151,7 @@ void wordsToNum(){
 	
 	printf("===============================\n");
 	printf("\nUSE LOWERCASE LETTERS ONLY\n");
-	printf("Enter x number[zero-one million] in word form: "); // asks for input from the user
+	printf("Enter a number[zero-one million] in word form: "); // asks for input from the user
 	getchar();
 	fgets(max_charInput, 100, stdin);	
 	printf("\n===============================\n");
